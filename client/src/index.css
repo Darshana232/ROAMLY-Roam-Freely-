@@ -1,0 +1,120 @@
+@import 'tailwindcss';
+
+/* Tokens from DESIGN.md. Change both together. */
+@theme {
+  --font-sans: 'Archivo', ui-sans-serif, system-ui, sans-serif;
+
+  --color-ghat-900: #0f2e24;
+  --color-ghat-700: #1e4d3c;
+  --color-ghat-100: #e2ece6;
+  --color-stone-50: #f5f6f3;
+  --color-asphalt: #1b1f1d;
+  --color-slate: #55605a;
+  --color-line: rgb(27 31 29 / 0.12);
+  --color-milestone: #f5c518;
+  --color-milestone-soft: #fdf3c4;
+  --color-leaf: #2e7d4f;
+  --color-amber: #9a5200;
+  --color-signal: #b3261e;
+
+  --radius-control: 8px;
+  --radius-surface: 12px;
+  --radius-photo: 6px;
+
+  --shadow-raise: 0 8px 24px -8px rgb(15 46 36 / 0.25), 0 1px 2px rgb(15 46 36 / 0.08);
+
+  --ease-road: cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+
+@layer base {
+  html {
+    -webkit-tap-highlight-color: transparent;
+  }
+  body {
+    @apply bg-stone-50 text-asphalt antialiased;
+    font-family: var(--font-sans);
+    font-variation-settings: 'wdth' 100;
+    line-height: 1.55;
+  }
+  h1, h2, h3 {
+    font-variation-settings: 'wdth' 114;
+    letter-spacing: -0.015em;
+    line-height: 1.06;
+    text-wrap: balance;
+  }
+  p {
+    text-wrap: pretty;
+  }
+  /* One visible focus style everywhere: yellow ring that reads on light and dark. */
+  :focus-visible {
+    outline: 3px solid var(--color-milestone);
+    outline-offset: 2px;
+    box-shadow: 0 0 0 2px var(--color-ghat-900);
+    border-radius: 4px;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+      animation-duration: 0.01ms !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}
+
+@utility font-wide {
+  font-variation-settings: 'wdth' 116;
+}
+@utility font-condensed {
+  font-variation-settings: 'wdth' 62;
+}
+@utility num {
+  font-variant-numeric: tabular-nums;
+}
+
+@utility btn {
+  @apply inline-flex min-h-11 items-center justify-center gap-2 rounded-control px-4 text-[15px] font-semibold
+    transition-[background-color,color,border-color,transform] duration-150 ease-road select-none
+    active:translate-y-px disabled:pointer-events-none disabled:opacity-50;
+}
+@utility btn-primary {
+  @apply btn bg-ghat-900 text-white hover:bg-ghat-700;
+}
+@utility btn-go {
+  @apply btn bg-milestone text-asphalt hover:bg-[#e8b80c];
+}
+@utility btn-outline {
+  @apply btn border border-line bg-white text-asphalt hover:border-asphalt/40;
+}
+@utility btn-quiet {
+  @apply btn px-2 text-asphalt underline-offset-4 hover:underline;
+}
+@utility btn-danger {
+  @apply btn border border-signal/30 bg-white text-signal hover:bg-signal/5;
+}
+
+@utility surface {
+  @apply rounded-surface border border-line bg-white;
+}
+
+@utility field {
+  @apply min-h-11 w-full rounded-control border border-line bg-white px-3 text-[15px] text-asphalt
+    transition-colors duration-150 placeholder:text-slate/70 hover:border-asphalt/30
+    aria-invalid:border-signal focus-visible:border-ghat-900;
+}
+@utility field-label {
+  @apply mb-1.5 block text-sm font-semibold text-asphalt;
+}
+
+@utility chip {
+  @apply inline-flex min-h-10 items-center gap-1.5 rounded-full border border-line bg-white px-3.5 text-sm font-medium
+    transition-colors duration-150 hover:border-asphalt/30
+    aria-pressed:border-ghat-900 aria-pressed:bg-ghat-900 aria-pressed:text-white;
+}
+
+@utility link {
+  @apply font-medium text-ghat-700 underline decoration-ghat-700/30 underline-offset-[3px] hover:decoration-ghat-700;
+}
+
+@utility skeleton {
+  @apply animate-pulse rounded-control bg-asphalt/[0.07];
+}
