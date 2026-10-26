@@ -1,0 +1,2055 @@
+[
+  {
+    "slug": "nandi-hills",
+    "name": "Nandi Hills",
+    "region": "Chikkaballapur, Karnataka",
+    "coords": {
+      "lat": 13.38626,
+      "lng": 77.70093
+    },
+    "roadKm": 60,
+    "crowd": 5,
+    "costTier": "low",
+    "busFromBlr": true,
+    "remote": false,
+    "idealDays": 1,
+    "interests": [
+      "hills",
+      "sunrise",
+      "cycling"
+    ],
+    "summary": "Nandi Hills is an ancient hill fortress built by the Ganga dynasty in the Chikkaballapur district of Karnataka state. It is now a locality situated 10 km from Chickballapur town and approximately 60 km from Bengaluru.",
+    "source": "https://en.wikipedia.org/wiki/Nandi_Hills%2C_India",
+    "image": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Sunrise_at_Nandi_Hills.jpg/1920px-Sunrise_at_Nandi_Hills.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1600,
+      "height": 1067,
+      "author": "JzG",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sunrise_at_Nandi_Hills.jpg"
+    },
+    "attractions": [
+      {
+        "slug": "nandi-hills-viewpoint",
+        "name": "Nandi Hills viewpoint",
+        "minutes": 120,
+        "best": "sunrise",
+        "hours": {
+          "open": "06:00",
+          "close": "18:00"
+        },
+        "coords": {
+          "lat": 13.38626,
+          "lng": 77.70093
+        },
+        "coordsApprox": true,
+        "summary": "",
+        "source": "https://en.wikipedia.org/wiki/Nandi_Hills%2C_India"
+      },
+      {
+        "slug": "bhoganandishwara-temple",
+        "name": "Bhoganandishwara Temple",
+        "minutes": 60,
+        "best": "any",
+        "hours": null,
+        "coords": {
+          "lat": 13.3868,
+          "lng": 77.698
+        },
+        "coordsApprox": false,
+        "summary": "Bhoganandiswara Temple and Arunachaleswara Temple are a twin Hindu temples complex located in Nandi village in Chikkaballapur district of Karnataka, India.",
+        "source": "https://en.wikipedia.org/wiki/Bhoganandishwara_Temple"
+      }
+    ]
+  },
+  {
+    "slug": "skandagiri",
+    "name": "Skandagiri",
+    "region": "Chikkaballapur, Karnataka",
+    "coords": {
+      "lat": 13.4175,
+      "lng": 77.68277778
+    },
+    "roadKm": 70,
+    "crowd": 4,
+    "costTier": "low",
+    "busFromBlr": false,
+    "remote": false,
+    "idealDays": 1,
+    "interests": [
+      "trekking",
+      "sunrise",
+      "hills"
+    ],
+    "summary": "9 mi) from Chikballapur in the Indian state of Karnataka. It is off Bellary Road, and overlooks Nandi Hills and Muddenahalli.",
+    "source": "https://en.wikipedia.org/wiki/Skandagiri",
+    "image": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Skandagiri.jpg/1920px-Skandagiri.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1600,
+      "height": 1200,
+      "author": "Vijets at English Wikipedia",
+      "license": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Skandagiri.jpg"
+    },
+    "attractions": [
+      {
+        "slug": "skandagiri-night-trek-and-summit",
+        "name": "Skandagiri night trek and summit",
+        "minutes": 240,
+        "best": "sunrise",
+        "hours": null,
+        "coords": {
+          "lat": 13.4175,
+          "lng": 77.68277778
+        },
+        "coordsApprox": true,
+        "summary": "",
+        "source": "https://en.wikipedia.org/wiki/Skandagiri"
+      },
+      {
+        "slug": "bhoganandishwara-temple",
+        "name": "Bhoganandishwara Temple",
+        "minutes": 60,
+        "best": "any",
+        "hours": null,
+        "coords": {
+          "lat": 13.3868,
+          "lng": 77.698
+        },
+        "coordsApprox": false,
+        "summary": "Bhoganandiswara Temple and Arunachaleswara Temple are a twin Hindu temples complex located in Nandi village in Chikkaballapur district of Karnataka, India.",
+        "source": "https://en.wikipedia.org/wiki/Bhoganandishwara_Temple"
+      }
+    ]
+  },
+  {
+    "slug": "savandurga",
+    "name": "Savandurga",
+    "region": "Ramanagara, Karnataka",
+    "coords": {
+      "lat": 12.9195,
+      "lng": 77.2921
+    },
+    "roadKm": 60,
+    "crowd": 3,
+    "costTier": "low",
+    "busFromBlr": true,
+    "remote": false,
+    "idealDays": 1,
+    "interests": [
+      "trekking",
+      "hills"
+    ],
+    "summary": "Savandurga is a hill 60 km west of Bengaluru, Karnataka, off the Magadi road in India. It is the largest monolith hills in Asia.",
+    "source": "https://en.wikipedia.org/wiki/Savandurga",
+    "image": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Savandurga_Hill_02.jpg/1920px-Savandurga_Hill_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1600,
+      "height": 1069,
+      "author": "Pravega",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Savandurga_Hill_02.jpg"
+    },
+    "attractions": [
+      {
+        "slug": "savandurga-monolith-climb",
+        "name": "Savandurga monolith climb",
+        "minutes": 210,
+        "best": "morning",
+        "hours": null,
+        "coords": {
+          "lat": 12.9195,
+          "lng": 77.2921
+        },
+        "coordsApprox": true,
+        "summary": "",
+        "source": "https://en.wikipedia.org/wiki/Savandurga"
+      },
+      {
+        "slug": "manchanabele-dam",
+        "name": "Manchanabele Dam",
+        "minutes": 60,
+        "best": "sunset",
+        "hours": null,
+        "coords": {
+          "lat": 12.86702,
+          "lng": 77.33445
+        },
+        "coordsApprox": false,
+        "summary": "Manchinabele is a village in Magadi taluk in Ramanagara District.",
+        "source": "https://en.wikipedia.org/wiki/Manchanabele"
+      }
+    ]
+  },
+  {
+    "slug": "lepakshi",
+    "name": "Lepakshi",
+    "region": "Sri Sathya Sai, Andhra Pradesh",
+    "coords": {
+      "lat": 13.81,
+      "lng": 77.6
+    },
+    "roadKm": 120,
+    "crowd": 2,
+    "costTier": "low",
+    "busFromBlr": true,
+    "remote": false,
+    "idealDays": 1,
+    "interests": [
+      "heritage",
+      "spiritual"
+    ],
+    "summary": "Lepakshi is a village in the Sri Sathya Sai district of Andhra Pradesh, India. It is situated15 km eastward of Hindupur, 82 km westward of Kadiri and 120 km (75 mi) north of Bangalore.",
+    "source": "https://en.wikipedia.org/wiki/Lepakshi",
+    "image": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Front_side_of_Veerabhadra_Temple%2C_Lepakshi.jpg/1920px-Front_side_of_Veerabhadra_Temple%2C_Lepakshi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1600,
+      "height": 1065,
+      "author": "Bikashrd",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Front_side_of_Veerabhadra_Temple,_Lepakshi.jpg"
+    },
+    "attractions": [
+      {
+        "slug": "veerabhadra-temple-lepakshi",
+        "name": "Veerabhadra Temple, Lepakshi",
+        "minutes": 90,
+        "best": "any",
+        "hours": null,
+        "coords": {
+          "lat": 13.80184444,
+          "lng": 77.60954722
+        },
+        "coordsApprox": false,
+        "summary": "Veerabhadra temple is a Hindu temple located in the Lepakshi, in the state of Andhra Pradesh, India.",
+        "source": "https://en.wikipedia.org/wiki/Veerabhadra_Temple%2C_Lepakshi"
+      },
+      {
+        "slug": "lepakshi-nandi-monolithic-bull",
+        "name": "Lepakshi Nandi (monolithic bull)",
+        "minutes": 20,
+        "best": "any",
+        "hours": null,
+        "coords": {
+          "lat": 13.81,
+          "lng": 77.6
+        },
+        "coordsApprox": true,
+        "summary": "",
+        "source": "https://en.wikipedia.org/wiki/Lepakshi"
+      }
+    ]
+  },
+  {
+    "slug": "shivanasamudra",
+    "name": "Shivanasamudra",
+    "region": "Mandya, Karnataka",
+    "coords": {
+      "lat": 12.29166667,
+      "lng": 77.175
+    },
+    "roadKm": 135,
+    "crowd": 3,
+    "costTier": "low",
+    "busFromBlr": false,
+    "remote": false,
+    "idealDays": 1,
+    "interests": [
+      "waterfalls",
+      "nature"
+    ],
+    "summary": "Shivanasamudra Falls is a series of segmented waterfalls on the Kaveri river. It is situated in Malavalli taluk in Mandya district, Karnataka.",
+    "source": "https://en.wikipedia.org/wiki/Shivanasamudra_Falls",
+    "image": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Gagana_Chukki_%281%29.jpg/1920px-Gagana_Chukki_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1600,
+      "height": 902,
+      "author": "Rajeev Ganesh C",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gagana_Chukki_(1).jpg"
+    },
+    "attractions": [
+      {
+        "slug": "gaganachukki-and-bharachukki-falls",
+        "name": "Gaganachukki and Bharachukki falls",
+        "minutes": 150,
+        "best": "morning",
+        "hours": null,
+        "coords": {
+          "lat": 12.29166667,
+          "lng": 77.175
+        },
+        "coordsApprox": false,
+        "summary": "Shivanasamudra Falls is a series of segmented waterfalls on the Kaveri river.",
+        "source": "https://en.wikipedia.org/wiki/Shivanasamudra_Falls"
+      },
+      {
+        "slug": "talakadu",
+        "name": "Talakadu",
+        "minutes": 120,
+        "best": "any",
+        "hours": null,
+        "coords": {
+          "lat": 12.22,
+          "lng": 77.03
+        },
+        "coordsApprox": false,
+        "summary": "Talakādu is a town on the left bank of the Kaveri river 45 km from Mysore and 133 km from Bangalore in Karnataka, India.",
+        "source": "https://en.wikipedia.org/wiki/Talakadu"
+      },
+      {
+        "slug": "chennakesava-temple-somanathapura",
+        "name": "Chennakesava Temple, Somanathapura",
+        "minutes": 75,
+        "best": "any",
+        "hours": null,
+        "coords": {
+          "lat": 12.27579444,
+          "lng": 76.88160556
+        },
+        "coordsApprox": false,
+        "summary": "Somanathapura, also spelled Somnathpur temple or Somanathpura is a town in T Narasipura Taluk, Mysore district in the state of Karnataka in India.",
+        "source": "https://en.wikipedia.org/wiki/Somanathapura"
+      }
+    ]
+  },
+  {
+    "slug": "melukote",
+    "name": "Melukote",
+    "region": "Mandya, Karnataka",
+    "coords": {
+      "lat": 12.65944444,
+      "lng": 76.64833333
+    },
+    "roadKm": 150,
+    "crowd": 2,
+    "costTier": "low",
+    "busFromBlr": true,
+    "remote": false,
+    "idealDays": 1,
+    "interests": [
+      "heritage",
+      "spiritual",
+      "hills"
+    ],
+    "summary": "Melukote in Pandavapura taluk of Mandya district, Karnataka, in southern India, is one of the sacred places in Karnataka. It is built on rocky hills, known as Yadugiri, Yaadavagiri or Yadushaila, overlooking the Cauvery valley.",
+    "source": "https://en.wikipedia.org/wiki/Melukote",
+    "image": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Melukotetemple.jpg/1920px-Melukotetemple.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1600,
+      "height": 1662,
+      "author": "Philanthropist 1",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Melukotetemple.jpg"
+    },
+    "attractions": [
+      {
+        "slug": "cheluvanarayana-swamy-temple",
+        "name": "Cheluvanarayana Swamy Temple",
+        "minutes": 75,
+        "best": "any",
+        "hours": null,
+        "coords": {
+          "lat": 12.66022222,
+          "lng": 76.64752778
+        },
+        "coordsApprox": false,
+        "summary": "Cheluvanarayana Swamy Temple, also known as Selva Pillai or Thirunarayanapuram, is a temple in Melukote in the Mandya District of Karnataka, India.",
+        "source": "https://en.wikipedia.org/wiki/Cheluvanarayana_Swamy_Temple"
+      },
+      {
+        "slug": "yoga-narasimha-hill-temple",
+        "name": "Yoga Narasimha hill temple",
+        "minutes": 75,
+        "best": "sunset",
+        "hours": null,
+        "coords": {
+          "lat": 12.65944444,
+          "lng": 76.64833333
+        },
+        "coordsApprox": true,
+        "summary": "",
+        "source": "https://en.wikipedia.org/wiki/Melukote"
+      },
+      {
+        "slug": "raya-gopura-and-kalyani",
+        "name": "Raya Gopura and Kalyani",
+        "minutes": 45,
+        "best": "any",
+        "hours": null,
+        "coords": {
+          "lat": 12.65944444,
+          "lng": 76.64833333
+        },
+        "coordsApprox": true,
+        "summary": "",
+        "source": "https://en.wikipedia.org/wiki/Melukote"
+      }
+    ]
+  },
+  {
+    "slug": "mysuru",
+    "name": "Mysuru",
+    "region": "Mysuru, Karnataka",
+    "coords": {
+      "lat": 12.30861111,
+      "lng": 76.65305556
+    },
+    "roadKm": 145,
+    "crowd": 5,
+    "costTier": "mid",
+    "busFromBlr": true,
+    "remote": false,
+    "idealDays": 2,
+    "interests": [
+      "heritage",
+      "food",
+      "spiritual"
+    ],
+    "summary": "Mysore, officially Mysuru, is a city in the southern Indian state of Karnataka. It is the administrative headquarters of Mysore district and Mysore division.",
+    "source": "https://en.wikipedia.org/wiki/Mysore",
+    "image": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Mysore_Palace_Morning.jpg/1920px-Mysore_Palace_Morning.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1600,
+      "height": 780,
+      "author": "Muhammad Mahdi Karim",
+      "license": "GFDL 1.2",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mysore_Palace_Morning.jpg"
+    },
+    "attractions": [
+      {
+        "slug": "mysore-palace",
+        "name": "Mysore Palace",
+        "minutes": 120,
+        "best": "any",
+        "hours": {
+          "open": "10:00",
+          "close": "17:30"
+        },
+        "coords": {
+          "lat": 12.30388889,
+          "lng": 76.65444444
+        },
+        "coordsApprox": false,
+        "summary": "Mysore Palace, also known as Amba Vilas Palace, is a historic palace and royal residence located in Mysore, Karnataka, India.",
+        "source": "https://en.wikipedia.org/wiki/Mysore_Palace"
+      },
+      {
+        "slug": "chamundi-hills",
+        "name": "Chamundi Hills",
+        "minutes": 120,
+        "best": "morning",
+        "hours": null,
+        "coords": {
+          "lat": 12.273,
+          "lng": 76.67
+        },
+        "coordsApprox": false,
+        "summary": "The Chamundi Hill is located 13 km east of Mysore, Karnataka, India.",
+        "source": "https://en.wikipedia.org/wiki/Chamundi_Hills"
+      },
+      {
+        "slug": "devaraja-market",
+        "name": "Devaraja Market",
+        "minutes": 60,
+        "best": "any",
+        "hours": null,
+        "coords": {
+          "lat": 12.3111,
+          "lng": 76.652
+        },
+        "coordsApprox": false,
+        "summary": "Devaraja Market is a market located in Mysuru, India.",
+        "source": "https://en.wikipedia.org/wiki/Devaraja_Market"
+      },
+      {
+        "slug": "srirangapatna",
+        "name": "Srirangapatna",
+        "minutes": 150,
+        "best": "any",
+        "hours": null,
+        "coords": {
+          "lat": 12.414,
+          "lng": 76.704
+        },
+        "coordsApprox": false,
+        "summary": "Srirangapatna or Srirangapattana is a town and headquarters of one of the seven Taluks of Mandya district, in the Indian state of Karnataka.",
+        "source": "https://en.wikipedia.org/wiki/Srirangapatna"
+      },
+      {
+        "slug": "brindavan-gardens",
+        "name": "Brindavan Gardens",
+        "minutes": 90,
+        "best": "sunset",
+        "hours": null,
+        "coords": {
+          "lat": 12.42611111,
+          "lng": 76.57611111
+        },
+        "coordsApprox": false,
+        "summary": "ms from the city of Mysore in the Mandya District of the Indian State of Karnataka.",
+        "source": "https://en.wikipedia.org/wiki/Brindavan_Gardens"
+      },
+      {
+        "slug": "st-philomena-s-cathedral-mysore",
+        "name": "St. Philomena's Cathedral, Mysore",
+        "minutes": 40,
+        "best": "any",
+        "hours": null,
+        "coords": {
+          "lat": 12.32113889,
+          "lng": 76.65827778
+        },
+        "coordsApprox": false,
+        "summary": "St.",
+        "source": "https://en.wikipedia.org/wiki/St._Philomena's_Cathedral%2C_Mysore"
+      }
+    ]
+  },
+  {
+    "slug": "shravanabelagola",
+    "name": "Shravanabelagola",
+    "region": "Hassan, Karnataka",
+    "coords": {
+      "lat": 12.859,
+      "lng": 76.489
+    },
+    "roadKm": 150,
+    "crowd": 2,
+    "costTier": "low",
+    "busFromBlr": true,
+    "remote": false,
+    "idealDays": 1,
+    "interests": [
+      "heritage",
+      "spiritual",
+      "trekking"
+    ],
+    "summary": "Shravanabelagola is a town located near Channarayapatna taluk of Hassan district in the Indian state of Karnataka and is 144 km (89 mi) from Bengaluru. The Gommateshwara Bahubali statue at Shravanabelagola is one of the most important tirthas in Jainism, one that reached a peak in architectural and sculptural activity under the patronage of Western Ganga dynasty of Talakad.",
+    "source": "https://en.wikipedia.org/wiki/Shravanabelagola",
+    "image": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Shravanabelagola_Hillview.jpg/1920px-Shravanabelagola_Hillview.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1600,
+      "height": 1176,
+      "author": "Ananth H V",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Shravanabelagola_Hillview.jpg"
+    },
+    "attractions": [
+      {
+        "slug": "gommateshwara-on-vindhyagiri",
+        "name": "Gommateshwara on Vindhyagiri",
+        "minutes": 120,
+        "best": "morning",
+        "hours": null,
+        "coords": {
+          "lat": 12.854026,
+          "lng": 76.484677
+        },
+        "coordsApprox": false,
+        "summary": "The Gommateshwara statue is a 57-foot (17 m) high monolithic statue of lord Bahubali on Vindhyagiri, also known as Indra-giri in the town of Shravanbelagola in the Indian state of Karnataka.",
+        "source": "https://en.wikipedia.org/wiki/Gommateshwara_statue"
+      },
+      {
+        "slug": "chandragiri-hill",
+        "name": "Chandragiri hill",
+        "minutes": 75,
+        "best": "any",
+        "hours": null,
+        "coords": {
+          "lat": 12.86166667,
+          "lng": 76.48777778
+        },
+        "coordsApprox": false,
+        "summary": "Chandragiri, also known as Chikka betta is one of the two hills in Shravanabelagola in the Indian state of Karnataka, the other one being Vindhyagiri.",
+        "source": "https://en.wikipedia.org/wiki/Chandragiri_Hill"
+      }
+    ]
+  },
+  {
+    "slug": "horsley-hills",
+    "name": "Horsley Hills",
+    "region": "Annamayya, Andhra Pradesh",
+    "coords": {
+      "lat": 13.66,
+      "lng": 78.4
+    },
+    "roadKm": 150,
+    "crowd": 2,
+    "costTier": "mid",
+    "busFromBlr": false,
+    "remote": false,
+    "idealDays": 2,
+    "interests": [
+      "hills",
+      "nature"
+    ],
+    "summary": "Horsley Hills or Horsleykonda or Yenugulla Mallamma Konda is a series of hills in Andhra Pradesh in Madanapalle Taluka of Annamayya district and is about 9 miles from Madanapalle town. The local name of the hill was Yenugu Mallama Konda after a legend of a saintly old woman named Mallamma who lived at the top of the hill and was fed by elephants (yenugulu).",
+    "source": "https://en.wikipedia.org/wiki/Horsley_Hills",
+    "image": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Distant_hills%2Chorsley_hills%2CAP_-_panoramio.jpg/1920px-Distant_hills%2Chorsley_hills%2CAP_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1600,
+      "height": 1200,
+      "author": "rajaraman sundaram",
+      "license": "CC BY 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Distant_hills,horsley_hills,AP_-_panoramio.jpg"
+    },
+    "attractions": [
+      {
+        "slug": "horsley-hills-viewpoints",
+        "name": "Horsley Hills viewpoints",
+        "minutes": 150,
+        "best": "sunset",
+        "hours": null,
+        "coords": {
+          "lat": 13.66,
+          "lng": 78.4
+        },
+        "coordsApprox": true,
+        "summary": "",
+        "source": "https://en.wikipedia.org/wiki/Horsley_Hills"
+      },
+      {
+        "slug": "gali-bandalu",
+        "name": "Gali Bandalu",
+        "minutes": 45,
+        "best": "any",
+        "hours": null,
+        "coords": {
+          "lat": 13.66,
+          "lng": 78.4
+        },
+        "coordsApprox": true,
+        "summary": "",
+        "source": "https://en.wikipedia.org/wiki/Horsley_Hills"
+      }
+    ]
+  },
+  {
+    "slug": "br-hills",
+    "name": "BR Hills",
+    "region": "Chamarajanagar, Karnataka",
+    "coords": {
+      "lat": 11.99388889,
+      "lng": 77.14055556
+    },
+    "roadKm": 180,
+    "crowd": 1,
+    "costTier": "mid",
+    "busFromBlr": false,
+    "remote": true,
+    "idealDays": 2,
+    "interests": [
+      "wildlife",
+      "nature",
+      "hills"
+    ],
+    "summary": "The Biligirirangana betta or Biligiriranga Hills is a hill range situated in Chamarajanagar District in south-western Karnataka, at its border with Tamil Nadu in South India. The area is called Biligiri Ranganatha Swamy Temple Wildlife Sanctuary or simply BRT Wildlife Sanctuary.",
+    "source": "https://en.wikipedia.org/wiki/Biligiriranga_Hills",
+    "image": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Hokkubare_Honnebare_peaks_BR_Hills.jpeg/1920px-Hokkubare_Honnebare_peaks_BR_Hills.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1600,
+      "height": 1200,
+      "author": "Prashanthns",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hokkubare_Honnebare_peaks_BR_Hills.jpeg"
+    },
+    "attractions": [
+      {
+        "slug": "brt-tiger-reserve-safari",
+        "name": "BRT Tiger Reserve safari",
+        "minutes": 180,
+        "best": "morning",
+        "hours": null,
+        "coords": {
+          "lat": 11.99388889,
+          "lng": 77.14055556
+        },
+        "coordsApprox": true,
+        "summary": "",
+        "source": "https://en.wikipedia.org/wiki/Biligiriranga_Hills"
+      },
+      {
+        "slug": "biligiri-ranganatha-temple-hilltop",
+        "name": "Biligiri Ranganatha temple hilltop",
+        "minutes": 60,
+        "best": "sunset",
+        "hours": null,
+        "coords": {
+          "lat": 11.99388889,
+          "lng": 77.14055556
+        },
+        "coordsApprox": true,
+        "summary": "",
+        "source": "https://en.wikipedia.org/wiki/Biligiriranga_Hills"
+      }
+    ]
+  },
+  {
+    "slug": "yercaud",
+    "name": "Yercaud",
+    "region": "Salem, Tamil Nadu",
+    "coords": {
+      "lat": 11.7794,
+      "lng": 78.2034
+    },
+    "roadKm": 230,
+    "crowd": 3,
+    "costTier": "mid",
+    "busFromBlr": false,
+    "remote": false,
+    "idealDays": 2,
+    "interests": [
+      "hills",
+      "plantations",
+      "lakes"
+    ],
+    "summary": "Yercaud or Erkadu, is a town and hill station in Salem District in Tamil Nadu, India. Located in Servarayan Hills in the Eastern Ghats, it is situated at an altitude of 1,515 m (4,970 ft).",
+    "source": "https://en.wikipedia.org/wiki/Yercaud",
+    "image": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Yercaud_lake.jpg/1920px-Yercaud_lake.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1600,
+      "height": 819,
+      "author": "Riju K",
+      "license": "CC BY-SA 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Yercaud_lake.jpg"
+    },
+    "attractions": [
+      {
+        "slug": "yercaud-lake",
+        "name": "Yercaud Lake",
+        "minutes": 60,
+        "best": "any",
+        "hours": null,
+        "coords": {
+          "lat": 11.7794,
+          "lng": 78.2034
+        },
+        "coordsApprox": true,
+        "summary": "",
+        "source": "https://en.wikipedia.org/wiki/Yercaud"
+      },
+      {
+        "slug": "shevaroyan-temple-viewpoint",
+        "name": "Shevaroyan temple viewpoint",
+        "minutes": 90,
+        "best": "sunset",
+        "hours": null,
+        "coords": {
+          "lat": 11.83333333,
+          "lng": 78.26666667
+        },
+        "coordsApprox": false,
+        "summary": "The Servarayan hills, with the anglicised name Shevaroy Hills, are a mountain range near the city of Salem, in Tamil Nadu state, southern India.",
+        "source": "https://en.wikipedia.org/wiki/Servarayan_Hills"
+      },
+      {
+        "slug": "kiliyur-falls",
+        "name": "Kiliyur Falls",
+        "minutes": 120,
+        "best": "any",
+        "hours": null,
+        "coords": {
+          "lat": 11.766667,
+          "lng": 78.233333
+        },
+        "coordsApprox": false,
+        "summary": "Kiliyur Falls is a waterfall on the Periyaaru river in the Servarayan hill range in the Eastern Ghats, Tamil Nadu, India.",
+        "source": "https://en.wikipedia.org/wiki/Kiliyur_Falls"
+      }
+    ]
+  },
+  {
+    "slug": "kabini",
+    "name": "Kabini",
+    "region": "Mysuru, Karnataka",
+    "coords": {
+      "lat": 12.21555556,
+      "lng": 76.91111111
+    },
+    "roadKm": 210,
+    "crowd": 2,
+    "costTier": "high",
+    "busFromBlr": false,
+    "remote": true,
+    "idealDays": 2,
+    "interests": [
+      "wildlife",
+      "nature",
+      "lakes"
+    ],
+    "summary": "The Kabini River is one of the major tributaries of the river Cauvery in southern India, It originates in Wayanad district of Kerala state by the confluence of the Panamaram River and the Mananthavady River. It flows eastward through Wayanad district, entering Mysore district of Karnataka, to join the Kaveri River in Mysore district of Karnataka.",
+    "source": "https://en.wikipedia.org/wiki/Kabini_River",
+    "image": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Kabani_River.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "width": 1600,
+      "height": 1067,
+      "author": "Vinodnellackal at en.wikipedia",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kabani_River.jpg"
+    },
+    "attractions": [
+      {
+        "slug": "nagarhole-jeep-safari",
+        "name": "Nagarhole jeep safari",
+        "minutes": 180,
+        "best": "morning",
+        "hours": null,
+        "coords": {
+          "lat": 12.06,
+          "lng": 76.15111111
+        },
+        "coordsApprox": false,
+        "summary": "Nagarahole National Park is a national park located in Kodagu district and Mysore district in Karnataka, India.",
+        "source": "https://en.wikipedia.org/wiki/Nagarhole_National_Park"
+      },
+      {
+        "slug": "kabini-backwaters",
+        "name": "Kabini backwaters",
+        "minutes": 90,
+        "best": "sunset",
+        "hours": null,
+        "coords": {
+          "lat": 12.21555556,
+          "lng": 76.91111111
+        },
+        "coordsApprox": false,
+        "summary": "The Kabini River is one of the major tributaries of the river Cauvery in southern India, It originates in Wayanad district of Kerala state by the confluence of the Panamaram River and the Mananthavady River.",
+        "source": "https://en.wikipedia.org/wiki/Kabini_River"
+      }
+    ]
+  },
+  {
+    "slug": "belur-and-halebidu",
+    "name": "Belur and Halebidu",
+    "region": "Hassan, Karnataka",
+    "coords": {
+      "lat": 13.1629,
+      "lng": 75.8571
+    },
+    "roadKm": 220,
+    "crowd": 2,
+    "costTier": "low",
+    "busFromBlr": true,
+    "remote": false,
+    "idealDays": 1,
+    "interests": [
+      "heritage",
+      "spiritual"
+    ],
+    "summary": "Belur or Belooru is a town and taluk in Hassan district in the state of Karnataka, India. The town is renowned for its Chennakeshava Temple dedicated to Vishnu, one of the finest examples of Hoysala architecture and the largest Hindu temple complex that has survived from pre-14th-century Karnata-Dravida tradition.",
+    "source": "https://en.wikipedia.org/wiki/Belur%2C_Karnataka",
+    "image": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Belur_street_towards_Chennakesava_temple.JPG/1920px-Belur_street_towards_Chennakesava_temple.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1600,
+      "height": 1071,
+      "author": "Jonas Buchholz (Jbuchholz)",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Belur_street_towards_Chennakesava_temple.JPG"
+    },
+    "attractions": [
+      {
+        "slug": "chennakeshava-temple-belur",
+        "name": "Chennakeshava Temple, Belur",
+        "minutes": 90,
+        "best": "any",
+        "hours": null,
+        "coords": {
+          "lat": 13.16293,
+          "lng": 75.860593
+        },
+        "coordsApprox": false,
+        "summary": "The Chennakeshava Temple, also referred to as the Keshava, Kesava or Vijayanarayana Temple, is a 12th-century Hindu temple in the Hassan district of Karnataka, India.",
+        "source": "https://en.wikipedia.org/wiki/Chennakeshava_Temple%2C_Belur"
+      },
+      {
+        "slug": "hoysaleswara-temple-halebidu",
+        "name": "Hoysaleswara Temple, Halebidu",
+        "minutes": 90,
+        "best": "any",
+        "hours": null,
+        "coords": {
+          "lat": 13.21319444,
+          "lng": 75.995
+        },
+        "coordsApprox": false,
+        "summary": "Hoysaleshwara temple, also referred simply as the Halebidu temple, is a 12th-century Hindu temple dedicated to the god Shiva.",
+        "source": "https://en.wikipedia.org/wiki/Hoysaleswara_Temple"
+      }
+    ]
+  },
+  {
+    "slug": "sakleshpur",
+    "name": "Sakleshpur",
+    "region": "Hassan, Karnataka",
+    "coords": {
+      "lat": 12.893,
+      "lng": 75.725
+    },
+    "roadKm": 220,
+    "crowd": 2,
+    "costTier": "mid",
+    "busFromBlr": true,
+    "remote": false,
+    "idealDays": 2,
+    "interests": [
+      "plantations",
+      "trekking",
+      "hills"
+    ],
+    "summary": "Sakleshpur or Sakaleshapura, is a town and the taluk in Hassan district in the state of Karnataka, India. The town is located on the banks of Hemavati River and it lies in the foot-hills of the Western Ghats range.",
+    "source": "https://en.wikipedia.org/wiki/Sakleshpur",
+    "image": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Places_in_western_ghat_karntataka_between_subramanya_and_sakleshpur_14.jpg/1920px-Places_in_western_ghat_karntataka_between_subramanya_and_sakleshpur_14.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1600,
+      "height": 1200,
+      "author": "Iamg",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Places_in_western_ghat_karntataka_between_subramanya_and_sakleshpur_14.jpg"
+    },
+    "attractions": [
+      {
+        "slug": "manjarabad-fort",
+        "name": "Manjarabad Fort",
+        "minutes": 75,
+        "best": "any",
+        "hours": null,
+        "coords": {
+          "lat": 12.893,
+          "lng": 75.725
+        },
+        "coordsApprox": true,
+        "summary": "Manjarabad fort is a star fort built in 1792 by Tipu Sultan, Sultan of Mysore following French star-shaped fort designs made popular by Sébastien Le Prestre de Vauban that deflect cannon fire and allow guns to cover all approaches without dead positions.",
+        "source": "https://en.wikipedia.org/wiki/Manjarabad_Fort"
+      },
+      {
+        "slug": "bisle-viewpoint",
+        "name": "Bisle viewpoint",
+        "minutes": 90,
+        "best": "morning",
+        "hours": null,
+        "coords": {
+          "lat": 12.732,
+          "lng": 75.677
+        },
+        "coordsApprox": false,
+        "summary": "Bisle Reserve Forest is a reserve forest in westernmost Hassan district of Karnataka state, India.",
+        "source": "https://en.wikipedia.org/wiki/Bisle_Reserve_Forest"
+      }
+    ]
+  },
+  {
+    "slug": "chitradurga",
+    "name": "Chitradurga",
+    "region": "Chitradurga, Karnataka",
+    "coords": {
+      "lat": 14.23,
+      "lng": 76.4
+    },
+    "roadKm": 200,
+    "crowd": 2,
+    "costTier": "low",
+    "busFromBlr": true,
+    "remote": false,
+    "idealDays": 1,
+    "interests": [
+      "heritage",
+      "trekking"
+    ],
+    "summary": "Chitradurga is a city and the headquarters of Chitradurga district, which is located on the valley of the Vedavati river in the central part of the Indian state of Karnataka. Chitradurga is a place with historical significance and a major tourist hub of Karnataka.",
+    "source": "https://en.wikipedia.org/wiki/Chitradurga",
+    "image": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/GALIMANTAPA.jpg/1920px-GALIMANTAPA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1600,
+      "height": 1066,
+      "author": "Basavarajmin21",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:GALIMANTAPA.jpg"
+    },
+    "attractions": [
+      {
+        "slug": "chitradurga-fort",
+        "name": "Chitradurga Fort",
+        "minutes": 180,
+        "best": "morning",
+        "hours": null,
+        "coords": {
+          "lat": 14.23,
+          "lng": 76.4
+        },
+        "coordsApprox": true,
+        "summary": "Chitradurga Fort, or as the British called it Chitaldoorg, is a fortification that straddles several hills and a peak overlooking a flat valley in the Chitradurga District, Karnataka, India.",
+        "source": "https://en.wikipedia.org/wiki/Chitradurga_Fort"
+      },
+      {
+        "slug": "chandravalli-caves",
+        "name": "Chandravalli caves",
+        "minutes": 60,
+        "best": "any",
+        "hours": null,
+        "coords": {
+          "lat": 14.20888889,
+          "lng": 76.38611111
+        },
+        "coordsApprox": false,
+        "summary": "Chandravalli is an archaeological site located in the Chitradurga district of the state of Karnataka, India.",
+        "source": "https://en.wikipedia.org/wiki/Chandravalli"
+      }
+    ]
+  },
+  {
+    "slug": "chikkamagaluru",
+    "name": "Chikkamagaluru",
+    "region": "Chikkamagaluru, Karnataka",
+    "coords": {
+      "lat": 13.325246,
+      "lng": 75.792399
+    },
+    "roadKm": 245,
+    "crowd": 4,
+    "costTier": "mid",
+    "busFromBlr": true,
+    "remote": false,
+    "idealDays": 2,
+    "interests": [
+      "plantations",
+      "trekking",
+      "hills",
+      "waterfalls"
+    ],
+    "summary": "Chikmagalur, previously known as Kiriya-Muguli, is a city, taluka and the headquarters of Chikmagalur district in the Indian state of Karnataka. Located on the foothills of the Chandra Drona Mountain range of the Western Ghats, the city attracts tourists from around the world for its pleasant and favourable hill station climate, tropical rainforest and coffee estates.",
+    "source": "https://en.wikipedia.org/wiki/Chikmagalur",
+    "image": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Chikmagalur%2C_India._%287793316622%29.jpg/1920px-Chikmagalur%2C_India._%287793316622%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1600,
+      "height": 1200,
+      "author": "Prof. Mohamed Shareef from Mysore",
+      "license": "CC BY-SA 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chikmagalur,_India._(7793316622).jpg"
+    },
+    "attractions": [
+      {
+        "slug": "mullayyanagiri",
+        "name": "Mullayyanagiri",
+        "minutes": 150,
+        "best": "sunrise",
+        "hours": null,
+        "coords": {
+          "lat": 13.39097222,
+          "lng": 75.72138889
+        },
+        "coordsApprox": false,
+        "summary": "Mullayyanagiri is the highest peak in Karnataka, India.",
+        "source": "https://en.wikipedia.org/wiki/Mullayyanagiri"
+      },
+      {
+        "slug": "baba-budangiri",
+        "name": "Baba Budangiri",
+        "minutes": 90,
+        "best": "any",
+        "hours": null,
+        "coords": {
+          "lat": 13.421,
+          "lng": 75.763
+        },
+        "coordsApprox": false,
+        "summary": "Baba Budangiri, also known as Chandradrona, is a hill and mountain range in the Western Ghats of India, located in the Chikkamagaluru district of Karnataka.",
+        "source": "https://en.wikipedia.org/wiki/Baba_Budangiri"
+      },
+      {
+        "slug": "hebbe-falls",
+        "name": "Hebbe Falls",
+        "minutes": 180,
+        "best": "any",
+        "hours": null,
+        "coords": {
+          "lat": 13.325246,
+          "lng": 75.792399
+        },
+        "coordsApprox": true,
+        "summary": "Hebbe Falls is situated at 13°32′29″N 75°43′30″E about 10 km away from the hill station Kemmangundi in Karnataka, India.",
+        "source": "https://en.wikipedia.org/wiki/Hebbe_Falls"
+      },
+      {
+        "slug": "jhari-falls",
+        "name": "Jhari Falls",
+        "minutes": 120,
+        "best": "any",
+        "hours": null,
+        "coords": {
+          "lat": 13.325246,
+          "lng": 75.792399
+        },
+        "coordsApprox": true,
+        "summary": "Jhari Falls is a waterfall in Chikmagalur district in Karnataka state, India, near Mullayanagiri and Baba Budan Giri.",
+        "source": "https://en.wikipedia.org/wiki/Jhari_Falls"
+      }
+    ]
+  },
+  {
+    "slug": "coorg-madikeri",
+    "name": "Coorg (Madikeri)",
+    "region": "Kodagu, Karnataka",
+    "coords": {
+      "lat": 12.4209,
+      "lng": 75.7397
+    },
+    "roadKm": 250,
+    "crowd": 4,
+    "costTier": "high",
+    "busFromBlr": true,
+    "remote": false,
+    "idealDays": 2,
+    "interests": [
+      "plantations",
+      "waterfalls",
+      "hills",
+      "trekking"
+    ],
+    "summary": "Madikeri, earlier called as Mercara is city and headquarters of Kodagu district in the Karnataka state of India. It is recognised as one of the world's eight \"hottest hotspots\" of biological diversity and is also a UNESCO World Heritage Site.",
+    "source": "https://en.wikipedia.org/wiki/Madikeri",
+    "image": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Raja%27s_Seat_View_Point.jpg/1920px-Raja%27s_Seat_View_Point.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1600,
+      "height": 1200,
+      "author": "Pawanrao",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Raja%27s_Seat_View_Point.jpg"
+    },
+    "attractions": [
+      {
+        "slug": "abbey-falls",
+        "name": "Abbey Falls",
+        "minutes": 60,
+        "best": "any",
+        "hours": null,
+        "coords": {
+          "lat": 12.459205,
+          "lng": 75.719668
+        },
+        "coordsApprox": false,
+        "summary": "Abbey Falls is a waterfall in Kodagu, in the Western Ghats of Karnataka, India.",
+        "source": "https://en.wikipedia.org/wiki/Abbey_Falls"
+      },
+      {
+        "slug": "raja-s-seat",
+        "name": "Raja's Seat",
+        "minutes": 60,
+        "best": "sunset",
+        "hours": null,
+        "coords": {
+          "lat": 12.41442778,
+          "lng": 75.73693611
+        },
+        "coordsApprox": false,
+        "summary": "Raja's Seat is a culturally significant site and tourist attraction in Madikeri of Coorg District.",
+        "source": "https://en.wikipedia.org/wiki/Raja's_Seat"
+      },
+      {
+        "slug": "namdroling-monastery",
+        "name": "Namdroling Monastery",
+        "minutes": 75,
+        "best": "any",
+        "hours": null,
+        "coords": {
+          "lat": 12.4305,
+          "lng": 75.96736944
+        },
+        "coordsApprox": false,
+        "summary": "The Thegchog Namdrol Shedrub Dargye Ling, informally known as Namdroling Monastery is the largest teaching center of the Nyingma lineage of Tibetan Buddhism in the world.",
+        "source": "https://en.wikipedia.org/wiki/Namdroling_Monastery"
+      },
+      {
+        "slug": "dubare-elephant-camp",
+        "name": "Dubare elephant camp",
+        "minutes": 120,
+        "best": "morning",
+        "hours": null,
+        "coords": {
+          "lat": 12.3685,
+          "lng": 75.9049
+        },
+        "coordsApprox": false,
+        "summary": "Dubare is a forest camp on the banks of the river Kaveri in the district of Kodagu, Karnataka.",
+        "source": "https://en.wikipedia.org/wiki/Dubare"
+      },
+      {
+        "slug": "talakaveri",
+        "name": "Talakaveri",
+        "minutes": 120,
+        "best": "any",
+        "hours": null,
+        "coords": {
+          "lat": 12.38548,
+          "lng": 75.491432
+        },
+        "coordsApprox": false,
+        "summary": "Talakaveri or Talacauvery is the place that is generally considered to be the source of the river Kaveri and a holy place for many Hindus.",
+        "source": "https://en.wikipedia.org/wiki/Talakaveri"
+      },
+      {
+        "slug": "madikeri-fort",
+        "name": "Madikeri Fort",
+        "minutes": 45,
+        "best": "any",
+        "hours": null,
+        "coords": {
+          "lat": 12.4209,
+          "lng": 75.7397
+        },
+        "coordsApprox": true,
+        "summary": "Madikeri Fort, also called Mercara Fort, is a fort in Madikeri, in the Kodagu district of the Indian state of Karnataka, first built by Mudduraja, a banajigara king of lingayath faith, who was from a family of bedanur royal house, in the second half of the 17th century.",
+        "source": "https://en.wikipedia.org/wiki/Madikeri_Fort"
+      }
+    ]
+  },
+  {
+    "slug": "ooty",
+    "name": "Ooty",
+    "region": "Nilgiris, Tamil Nadu",
+    "coords": {
+      "lat": 11.41,
+      "lng": 76.7
+    },
+    "roadKm": 270,
+    "crowd": 5,
+    "costTier": "high",
+    "busFromBlr": true,
+    "remote": false,
+    "idealDays": 2,
+    "interests": [
+      "hills",
+      "plantations",
+      "lakes"
+    ],
+    "summary": "Ooty is a town and seat of the Nilgiris district in the Indian state of Tamil Nadu. It is located at an altitude of 2,240 m (7,350 ft), in the Nilgiri Mountains, which forms part of the Western Ghats, and is known by the epithet \"Queen of hill stations\".",
+    "source": "https://en.wikipedia.org/wiki/Ooty",
+    "image": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Ooty_lake.jpg/1920px-Ooty_lake.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1600,
+      "height": 871,
+      "author": "Vinayaraj",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ooty_lake.jpg"
+    },
+    "attractions": [
+      {
+        "slug": "government-botanical-garden",
+        "name": "Government Botanical Garden",
+        "minutes": 90,
+        "best": "any",
+        "hours": null,
+        "coords": {
+          "lat": 11.418752,
+          "lng": 76.711038
+        },
+        "coordsApprox": false,
+        "summary": "The Government Botanical Garden is a botanical garden in Udhagamandalam, near Coimbatore (Ooty), Tamil Nadu state, India laid out in 1848.",
+        "source": "https://en.wikipedia.org/wiki/Government_Botanical_Garden"
+      },
+      {
+        "slug": "doddabetta",
+        "name": "Doddabetta",
+        "minutes": 60,
+        "best": "morning",
+        "hours": null,
+        "coords": {
+          "lat": 11.40241667,
+          "lng": 76.73672222
+        },
+        "coordsApprox": false,
+        "summary": "Doddabetta is the highest mountain in the Nilgiri Mountains at 2,637 metres (8,652 ft).",
+        "source": "https://en.wikipedia.org/wiki/Doddabetta"
+      },
+      {
+        "slug": "ooty-lake",
+        "name": "Ooty Lake",
+        "minutes": 60,
+        "best": "any",
+        "hours": null,
+        "coords": {
+          "lat": 11.4061,
+          "lng": 76.6882
+        },
+        "coordsApprox": false,
+        "summary": "Ooty lake is an artificial lake near Ooty in the Nilgiris district of Tamil Nadu, India.",
+        "source": "https://en.wikipedia.org/wiki/Ooty_Lake"
+      },
+      {
+        "slug": "pykara-falls-and-lake",
+        "name": "Pykara falls and lake",
+        "minutes": 120,
+        "best": "any",
+        "hours": null,
+        "coords": {
+          "lat": 11.4547,
+          "lng": 76.5972
+        },
+        "coordsApprox": false,
+        "summary": "The Pykara is a river 19 kilometres (12 mi) from Ooty in the Indian State of Tamil Nadu with a village by the same name nearby.",
+        "source": "https://en.wikipedia.org/wiki/Pykara"
+      },
+      {
+        "slug": "nilgiri-toy-train-to-coonoor",
+        "name": "Nilgiri toy train to Coonoor",
+        "minutes": 150,
+        "best": "any",
+        "hours": null,
+        "coords": {
+          "lat": 11.51027778,
+          "lng": 76.93166667
+        },
+        "coordsApprox": false,
+        "summary": "The Nilgiri Mountain Railway (NMR), colloquially called the \"Toy Train\" by locals, is a 1,000 mm metre gauge railway in Nilgiris district, Tamil Nadu, India, built by the British in 1908.",
+        "source": "https://en.wikipedia.org/wiki/Nilgiri_Mountain_Railway"
+      }
+    ]
+  },
+  {
+    "slug": "wayanad",
+    "name": "Wayanad",
+    "region": "Wayanad, Kerala",
+    "coords": {
+      "lat": 11.6264,
+      "lng": 76.0889
+    },
+    "roadKm": 280,
+    "crowd": 3,
+    "costTier": "mid",
+    "busFromBlr": true,
+    "remote": false,
+    "idealDays": 3,
+    "interests": [
+      "trekking",
+      "waterfalls",
+      "plantations",
+      "heritage"
+    ],
+    "summary": "Wayanad district, or Wynad, is a district in the north-east of the Indian state of Kerala, with its administrative headquarters at the municipality of Kalpetta. It is the only plateau in Kerala.",
+    "source": "https://en.wikipedia.org/wiki/Wayanad_district",
+    "image": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Blue%2C_Green_%26_White.jpg/1920px-Blue%2C_Green_%26_White.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1600,
+      "height": 1067,
+      "author": "Karkiabhijeet",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Blue,_Green_%26_White.jpg"
+    },
+    "attractions": [
+      {
+        "slug": "edakkal-caves",
+        "name": "Edakkal caves",
+        "minutes": 120,
+        "best": "morning",
+        "hours": null,
+        "coords": {
+          "lat": 11.62466944,
+          "lng": 76.2358
+        },
+        "coordsApprox": false,
+        "summary": "The Edakkal caves are two natural caves at a remote location in Sultan Bathery in the Wayanad district of Kerala in India.",
+        "source": "https://en.wikipedia.org/wiki/Edakkal_caves"
+      },
+      {
+        "slug": "chembra-peak",
+        "name": "Chembra Peak",
+        "minutes": 300,
+        "best": "morning",
+        "hours": null,
+        "coords": {
+          "lat": 11.51222222,
+          "lng": 76.08944444
+        },
+        "coordsApprox": false,
+        "summary": "Chembra Peak is a mountain in the state of Kerala, India, with an elevation of 2,100 m (6,890 ft) above sea level.",
+        "source": "https://en.wikipedia.org/wiki/Chembra_Peak"
+      },
+      {
+        "slug": "banasura-sagar-dam",
+        "name": "Banasura Sagar Dam",
+        "minutes": 90,
+        "best": "any",
+        "hours": null,
+        "coords": {
+          "lat": 11.67,
+          "lng": 75.95777778
+        },
+        "coordsApprox": false,
+        "summary": "Banasura Sagar Dam, situated in Padinjarathara in Kerala is the largest earth dam in India and second largest dam in Asia.",
+        "source": "https://en.wikipedia.org/wiki/Banasura_Sagar_Dam"
+      },
+      {
+        "slug": "soochipara-falls",
+        "name": "Soochipara Falls",
+        "minutes": 120,
+        "best": "any",
+        "hours": null,
+        "coords": {
+          "lat": 11.51222222,
+          "lng": 76.16305556
+        },
+        "coordsApprox": false,
+        "summary": "Soochipara Falls also known as Sentinel Rock Waterfalls is a three-tiered waterfall in Vellarimala, Wayanad, India.",
+        "source": "https://en.wikipedia.org/wiki/Soochipara_Falls"
+      },
+      {
+        "slug": "pookode-lake",
+        "name": "Pookode Lake",
+        "minutes": 60,
+        "best": "any",
+        "hours": null,
+        "coords": {
+          "lat": 11.5424566,
+          "lng": 76.0272233
+        },
+        "coordsApprox": false,
+        "summary": "Pookode Lake is a scenic freshwater lake in the Wayanad district in Kerala, South India.",
+        "source": "https://en.wikipedia.org/wiki/Pookode_Lake"
+      }
+    ]
+  },
+  {
+    "slug": "gandikota",
+    "name": "Gandikota",
+    "region": "YSR Kadapa, Andhra Pradesh",
+    "coords": {
+      "lat": 14.81472222,
+      "lng": 78.28666667
+    },
+    "roadKm": 300,
+    "crowd": 2,
+    "costTier": "low",
+    "busFromBlr": false,
+    "remote": true,
+    "idealDays": 2,
+    "interests": [
+      "heritage",
+      "camping",
+      "nature"
+    ],
+    "summary": "Gandikota is a village and historical fort on the right bank of the Penna river, 15 km from Jammalamadugu in Kadapa district, Andhra Pradesh, India. The fort was the centre of power for various dynasties, such as the Kalyani Chalukyas, Pemmasani Nayakas, and the Golconda Sultanate.",
+    "source": "https://en.wikipedia.org/wiki/Gandikota",
+    "image": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Indian_Grand_Canyon_Sudhakar_Bichali.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "width": 1600,
+      "height": 890,
+      "author": "Sudhakarbichali",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Indian_Grand_Canyon_Sudhakar_Bichali.jpg"
+    },
+    "attractions": [
+      {
+        "slug": "gandikota-gorge-on-the-penna",
+        "name": "Gandikota gorge on the Penna",
+        "minutes": 120,
+        "best": "sunrise",
+        "hours": null,
+        "coords": {
+          "lat": 14.81472222,
+          "lng": 78.28666667
+        },
+        "coordsApprox": true,
+        "summary": "",
+        "source": "https://en.wikipedia.org/wiki/Gandikota"
+      },
+      {
+        "slug": "gandikota-fort-and-madhavaraya-temple",
+        "name": "Gandikota fort and Madhavaraya Temple",
+        "minutes": 120,
+        "best": "any",
+        "hours": null,
+        "coords": {
+          "lat": 14.81472222,
+          "lng": 78.28666667
+        },
+        "coordsApprox": true,
+        "summary": "Madhavaraya Temple is a 16th-century Hindu temple located in the Gandikota Fort, in the Kadapa district of Andhra Pradesh, India.",
+        "source": "https://en.wikipedia.org/wiki/Madhavaraya_Temple%2C_Gandikota"
+      },
+      {
+        "slug": "belum-caves",
+        "name": "Belum Caves",
+        "minutes": 120,
+        "best": "any",
+        "hours": null,
+        "coords": {
+          "lat": 15.10416667,
+          "lng": 78.13055556
+        },
+        "coordsApprox": false,
+        "summary": "Belum Caves are a limestone cave system located in Nandyal district of Andhra Pradesh, India.",
+        "source": "https://en.wikipedia.org/wiki/Belum_Caves"
+      }
+    ]
+  },
+  {
+    "slug": "puducherry",
+    "name": "Puducherry",
+    "region": "Puducherry",
+    "coords": {
+      "lat": 11.93401361,
+      "lng": 79.82902833
+    },
+    "roadKm": 310,
+    "crowd": 4,
+    "costTier": "mid",
+    "busFromBlr": true,
+    "remote": false,
+    "idealDays": 2,
+    "interests": [
+      "beach",
+      "heritage",
+      "food"
+    ],
+    "summary": "Pondicherry, officially known as Puducherry, is the capital and most populous city of the Union Territory of Puducherry in India. The city is in the Puducherry district on the southeast coast of India and is surrounded by the Bay of Bengal to the east and the state of Tamil Nadu, with which it shares most of its culture, heritage, and language.",
+    "source": "https://en.wikipedia.org/wiki/Pondicherry",
+    "image": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Pondicherry-Rock_beach_aerial_view.jpg/1920px-Pondicherry-Rock_beach_aerial_view.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1600,
+      "height": 1067,
+      "author": "Karthik Easvur",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pondicherry-Rock_beach_aerial_view.jpg"
+    },
+    "attractions": [
+      {
+        "slug": "promenade-beach",
+        "name": "Promenade Beach",
+        "minutes": 90,
+        "best": "sunrise",
+        "hours": null,
+        "coords": {
+          "lat": 11.9325,
+          "lng": 79.83583333
+        },
+        "coordsApprox": false,
+        "summary": "Rock Beach is the popular stretch of beachfront in the city of Puducherry, India, along the Bay of Bengal.",
+        "source": "https://en.wikipedia.org/wiki/Promenade_Beach"
+      },
+      {
+        "slug": "auroville",
+        "name": "Auroville",
+        "minutes": 180,
+        "best": "any",
+        "hours": null,
+        "coords": {
+          "lat": 12.00694444,
+          "lng": 79.81055556
+        },
+        "coordsApprox": false,
+        "summary": "Auroville is an experimental township in Viluppuram district, mostly in the state of Tamil Nadu, India, with some parts in the Union Territory of Puducherry in India.",
+        "source": "https://en.wikipedia.org/wiki/Auroville"
+      },
+      {
+        "slug": "white-town-walk",
+        "name": "White Town walk",
+        "minutes": 120,
+        "best": "any",
+        "hours": null,
+        "coords": {
+          "lat": 11.93401361,
+          "lng": 79.82902833
+        },
+        "coordsApprox": true,
+        "summary": "",
+        "source": "https://en.wikipedia.org/wiki/Pondicherry"
+      },
+      {
+        "slug": "sri-aurobindo-ashram",
+        "name": "Sri Aurobindo Ashram",
+        "minutes": 45,
+        "best": "any",
+        "hours": null,
+        "coords": {
+          "lat": 11.936708,
+          "lng": 79.834039
+        },
+        "coordsApprox": false,
+        "summary": "The Sri Aurobindo Ashram is a spiritual community and ashram in Pondicherry (Puducherry), India.",
+        "source": "https://en.wikipedia.org/wiki/Sri_Aurobindo_Ashram"
+      }
+    ]
+  },
+  {
+    "slug": "kudremukh",
+    "name": "Kudremukh",
+    "region": "Chikkamagaluru, Karnataka",
+    "coords": {
+      "lat": 13.12951111,
+      "lng": 75.26855278
+    },
+    "roadKm": 330,
+    "crowd": 2,
+    "costTier": "mid",
+    "busFromBlr": false,
+    "remote": true,
+    "idealDays": 2,
+    "interests": [
+      "trekking",
+      "hills",
+      "nature"
+    ],
+    "summary": "Kudremukha is the name of a mountain range and an individual mountain peak located in Chikmagalur district, in Karnataka, India. It is also the name of a small hill station and iron ore-mining town situated near the mountain, about 20 kilometres from Kalasa in Kalasa Taluk.",
+    "source": "https://en.wikipedia.org/wiki/Kudremukha",
+    "image": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Shola_Grasslands_and_forests_in_the_Kudremukh_National_Park%2C_Western_Ghats%2C_Karnataka.jpg/1920px-Shola_Grasslands_and_forests_in_the_Kudremukh_National_Park%2C_Western_Ghats%2C_Karnataka.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1600,
+      "height": 1156,
+      "author": "Karunakar Rayker",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Shola_Grasslands_and_forests_in_the_Kudremukh_National_Park,_Western_Ghats,_Karnataka.jpg"
+    },
+    "attractions": [
+      {
+        "slug": "kudremukh-peak-trek-permit-needed",
+        "name": "Kudremukh peak trek (permit needed)",
+        "minutes": 420,
+        "best": "morning",
+        "hours": null,
+        "coords": {
+          "lat": 13.12951111,
+          "lng": 75.26855278
+        },
+        "coordsApprox": false,
+        "summary": "Kudremukha is the name of a mountain range and an individual mountain peak located in Chikmagalur district, in Karnataka, India.",
+        "source": "https://en.wikipedia.org/wiki/Kudremukha"
+      },
+      {
+        "slug": "hanumana-gundi-falls",
+        "name": "Hanumana Gundi Falls",
+        "minutes": 90,
+        "best": "any",
+        "hours": null,
+        "coords": {
+          "lat": 13.2695045,
+          "lng": 75.1553839
+        },
+        "coordsApprox": false,
+        "summary": "Hanumana Gundi Falls, also known as Suthanabbe Falls or Soothanabbi Falls, is located in the hilly surroundings of the Kudremukh National Park in the Chikkamagaluru district of Karnataka, India.",
+        "source": "https://en.wikipedia.org/wiki/Hanumana_Gundi_Falls"
+      },
+      {
+        "slug": "kalasa",
+        "name": "Kalasa",
+        "minutes": 60,
+        "best": "any",
+        "hours": null,
+        "coords": {
+          "lat": 13.234,
+          "lng": 75.3553
+        },
+        "coordsApprox": false,
+        "summary": "Kalasa is a taluk located in Chikmagalur district in Karnataka.",
+        "source": "https://en.wikipedia.org/wiki/Kalasa"
+      }
+    ]
+  },
+  {
+    "slug": "hampi",
+    "name": "Hampi",
+    "region": "Vijayanagara, Karnataka",
+    "coords": {
+      "lat": 15.33444444,
+      "lng": 76.46222222
+    },
+    "roadKm": 340,
+    "crowd": 4,
+    "costTier": "low",
+    "busFromBlr": true,
+    "remote": false,
+    "idealDays": 3,
+    "interests": [
+      "heritage",
+      "trekking",
+      "spiritual"
+    ],
+    "summary": "Hampi or Hampe, also referred to as the Group of Monuments at Hampi, is a UNESCO World Heritage Site located in the town of Hampi in Vijayanagara district, east-central Karnataka, India. Hampi predates the Vijayanagara Empire; it is mentioned in the Ramayana and the Puranas of Hinduism as Pampa Devi Tirtha Kshetra.",
+    "source": "https://en.wikipedia.org/wiki/Hampi",
+    "image": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Wide_angle_of_Galigopuram_of_Virupaksha_Temple%2C_Hampi_%2804%29_%28cropped%29.jpg/1920px-Wide_angle_of_Galigopuram_of_Virupaksha_Temple%2C_Hampi_%2804%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1600,
+      "height": 800,
+      "author": "iMahesh",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wide_angle_of_Galigopuram_of_Virupaksha_Temple,_Hampi_(04)_(cropped).jpg"
+    },
+    "attractions": [
+      {
+        "slug": "virupaksha-temple-hampi",
+        "name": "Virupaksha Temple, Hampi",
+        "minutes": 75,
+        "best": "any",
+        "hours": null,
+        "coords": {
+          "lat": 15.335167,
+          "lng": 76.458722
+        },
+        "coordsApprox": false,
+        "summary": "The Virūpaksha Temple is located in Hampi in the Vijayanagara district of Karnataka, India, situated on the banks of the river Tungabhadra.",
+        "source": "https://en.wikipedia.org/wiki/Virupaksha_Temple%2C_Hampi"
+      },
+      {
+        "slug": "vittala-temple-and-stone-chariot",
+        "name": "Vittala Temple and stone chariot",
+        "minutes": 120,
+        "best": "any",
+        "hours": null,
+        "coords": {
+          "lat": 15.33444444,
+          "lng": 76.46222222
+        },
+        "coordsApprox": true,
+        "summary": "",
+        "source": "https://en.wikipedia.org/wiki/Hampi"
+      },
+      {
+        "slug": "hemakuta-hill",
+        "name": "Hemakuta Hill",
+        "minutes": 60,
+        "best": "sunset",
+        "hours": null,
+        "coords": {
+          "lat": 15.33444444,
+          "lng": 76.46222222
+        },
+        "coordsApprox": true,
+        "summary": "",
+        "source": "https://en.wikipedia.org/wiki/Hampi"
+      },
+      {
+        "slug": "zenana-enclosure-and-lotus-mahal",
+        "name": "Zenana enclosure and Lotus Mahal",
+        "minutes": 75,
+        "best": "any",
+        "hours": null,
+        "coords": {
+          "lat": 15.3203,
+          "lng": 76.4713
+        },
+        "coordsApprox": false,
+        "summary": "Lotus Mahal or Chitrangini Mahal is an important secular structure in Hampi, India.",
+        "source": "https://en.wikipedia.org/wiki/Lotus_Mahal"
+      },
+      {
+        "slug": "matanga-hill",
+        "name": "Matanga Hill",
+        "minutes": 120,
+        "best": "sunrise",
+        "hours": null,
+        "coords": {
+          "lat": 15.33444444,
+          "lng": 76.46222222
+        },
+        "coordsApprox": true,
+        "summary": "Matanga Hill, also known as Rishyamuka Parvata, is a rocky hill in the Matanga hill range, Hampi, Karnataka, southern India.",
+        "source": "https://en.wikipedia.org/wiki/Matanga_Hill"
+      },
+      {
+        "slug": "hazara-rama-temple",
+        "name": "Hazara Rama Temple",
+        "minutes": 45,
+        "best": "any",
+        "hours": null,
+        "coords": {
+          "lat": 15.33444444,
+          "lng": 76.46222222
+        },
+        "coordsApprox": true,
+        "summary": "",
+        "source": "https://en.wikipedia.org/wiki/Hampi"
+      },
+      {
+        "slug": "anegundi",
+        "name": "Anegundi",
+        "minutes": 120,
+        "best": "any",
+        "hours": null,
+        "coords": {
+          "lat": 15.3527,
+          "lng": 76.4919
+        },
+        "coordsApprox": false,
+        "summary": "Anegundi, previously called Kishkindha, is a village in Gangavathi, Koppal district, in the Indian state of Karnataka.",
+        "source": "https://en.wikipedia.org/wiki/Anegundi"
+      }
+    ]
+  },
+  {
+    "slug": "agumbe",
+    "name": "Agumbe",
+    "region": "Shivamogga, Karnataka",
+    "coords": {
+      "lat": 13.5087,
+      "lng": 75.0959
+    },
+    "roadKm": 350,
+    "crowd": 1,
+    "costTier": "low",
+    "busFromBlr": true,
+    "remote": true,
+    "idealDays": 2,
+    "interests": [
+      "nature",
+      "waterfalls",
+      "trekking"
+    ],
+    "summary": "Agumbe is a village situated in the Thirthahalli taluka of Shivamogga district, Karnataka, India. It is nestled in the thickly forested Malenadu region of the Western Ghats mountain range.",
+    "source": "https://en.wikipedia.org/wiki/Agumbe",
+    "image": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Agumbe_View_point.jpg/1920px-Agumbe_View_point.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1600,
+      "height": 1200,
+      "author": "Shashidhara halady",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Agumbe_View_point.jpg"
+    },
+    "attractions": [
+      {
+        "slug": "agumbe-sunset-point",
+        "name": "Agumbe sunset point",
+        "minutes": 60,
+        "best": "sunset",
+        "hours": null,
+        "coords": {
+          "lat": 13.5087,
+          "lng": 75.0959
+        },
+        "coordsApprox": true,
+        "summary": "",
+        "source": "https://en.wikipedia.org/wiki/Agumbe"
+      },
+      {
+        "slug": "barkana-falls",
+        "name": "Barkana Falls",
+        "minutes": 180,
+        "best": "any",
+        "hours": null,
+        "coords": {
+          "lat": 13.5087,
+          "lng": 75.0959
+        },
+        "coordsApprox": true,
+        "summary": "The Barkana Falls, formed by Seetha River, is a waterfall located near Agumbe in Shimoga district of state of Karnataka, India and the water falls is among the ten highest waterfalls in India.",
+        "source": "https://en.wikipedia.org/wiki/Barkana_Falls"
+      },
+      {
+        "slug": "kunchikal-falls",
+        "name": "Kunchikal Falls",
+        "minutes": 90,
+        "best": "any",
+        "hours": null,
+        "coords": {
+          "lat": 13.6947,
+          "lng": 75.01813
+        },
+        "coordsApprox": false,
+        "summary": "Kunchikal Falls is a waterfall in India located in the Nidagodu village near Yadur-Masthikatte in the Shimoga district of Karnataka state.",
+        "source": "https://en.wikipedia.org/wiki/Kunchikal_Falls"
+      },
+      {
+        "slug": "kundadri",
+        "name": "Kundadri",
+        "minutes": 90,
+        "best": "morning",
+        "hours": null,
+        "coords": {
+          "lat": 13.5575,
+          "lng": 75.17027778
+        },
+        "coordsApprox": false,
+        "summary": "Kundadri is a hill with dense forests in the Western Ghats located in Shimoga District, Karnataka State, India.",
+        "source": "https://en.wikipedia.org/wiki/Kundadri"
+      }
+    ]
+  },
+  {
+    "slug": "dandeli",
+    "name": "Dandeli",
+    "region": "Uttara Kannada, Karnataka",
+    "coords": {
+      "lat": 15.252257,
+      "lng": 74.622185
+    },
+    "roadKm": 460,
+    "crowd": 2,
+    "costTier": "mid",
+    "busFromBlr": true,
+    "remote": true,
+    "idealDays": 3,
+    "interests": [
+      "wildlife",
+      "adventure",
+      "nature"
+    ],
+    "summary": "Dandeli is a taluk in Uttara Kannada district of Karnataka, India, in the Malenadu region.",
+    "source": "https://en.wikipedia.org/wiki/Dandeli",
+    "image": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/5/53/Dandeli_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "width": 1600,
+      "height": 1067,
+      "author": "Vinayak wiki",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dandeli_1.jpg"
+    },
+    "attractions": [
+      {
+        "slug": "kali-river-rafting",
+        "name": "Kali river rafting",
+        "minutes": 180,
+        "best": "morning",
+        "hours": null,
+        "coords": {
+          "lat": 14.84222222,
+          "lng": 74.12305556
+        },
+        "coordsApprox": false,
+        "summary": "The Kali River or Kāli Nadi is a river flowing through Uttara Kannada district of Karnataka state in India.",
+        "source": "https://en.wikipedia.org/wiki/Kali_River_(Karnataka)"
+      },
+      {
+        "slug": "dandeli-wildlife-sanctuary",
+        "name": "Dandeli Wildlife Sanctuary",
+        "minutes": 180,
+        "best": "morning",
+        "hours": null,
+        "coords": {
+          "lat": 15.252257,
+          "lng": 74.622185
+        },
+        "coordsApprox": true,
+        "summary": "Dandeli Wildlife Sanctuary is located in Uttara Kannada District of Karnataka state in India.",
+        "source": "https://en.wikipedia.org/wiki/Dandeli_Wildlife_Sanctuary"
+      },
+      {
+        "slug": "syntheri-rocks",
+        "name": "Syntheri Rocks",
+        "minutes": 60,
+        "best": "any",
+        "hours": null,
+        "coords": {
+          "lat": 15.252257,
+          "lng": 74.622185
+        },
+        "coordsApprox": true,
+        "summary": "",
+        "source": "https://en.wikipedia.org/wiki/Dandeli"
+      },
+      {
+        "slug": "kavala-caves",
+        "name": "Kavala Caves",
+        "minutes": 90,
+        "best": "any",
+        "hours": null,
+        "coords": {
+          "lat": 15.252257,
+          "lng": 74.622185
+        },
+        "coordsApprox": true,
+        "summary": "",
+        "source": "https://en.wikipedia.org/wiki/Dandeli"
+      }
+    ]
+  },
+  {
+    "slug": "gokarna",
+    "name": "Gokarna",
+    "region": "Uttara Kannada, Karnataka",
+    "coords": {
+      "lat": 14.55,
+      "lng": 74.31667
+    },
+    "roadKm": 480,
+    "crowd": 4,
+    "costTier": "mid",
+    "busFromBlr": true,
+    "remote": false,
+    "idealDays": 3,
+    "interests": [
+      "beach",
+      "trekking",
+      "spiritual"
+    ],
+    "summary": "Gokarna is a historical temple town located in the Uttara Kannada district of Karnataka state in southern India, The town is famous for the 4th century Mahabaleshwar Temple, dedicated to the Hindu God Shiva, the Bhadrakali Temple dedicated to Goddess Uma and Maha Ganpati Temple dedicated to Hindu God Ganesha. Gokarna is mentioned in the Hindu epic Mahabharata and by the classical Sanskrit poet Kalidasa in his 4th-century work Raghuvamsha, where he refers to the \"Lord of Gokarna\".",
+    "source": "https://en.wikipedia.org/wiki/Gokarna%2C_Karnataka",
+    "image": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Delight_india.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "width": 1600,
+      "height": 1160,
+      "author": "Aleksriis",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Delight_india.jpg"
+    },
+    "attractions": [
+      {
+        "slug": "om-beach",
+        "name": "Om Beach",
+        "minutes": 150,
+        "best": "any",
+        "hours": null,
+        "coords": {
+          "lat": 14.55,
+          "lng": 74.31667
+        },
+        "coordsApprox": true,
+        "summary": "",
+        "source": "https://en.wikipedia.org/wiki/Gokarna%2C_Karnataka"
+      },
+      {
+        "slug": "mahabaleshwar-temple-gokarna",
+        "name": "Mahabaleshwar Temple, Gokarna",
+        "minutes": 45,
+        "best": "any",
+        "hours": null,
+        "coords": {
+          "lat": 14.54333333,
+          "lng": 74.31638889
+        },
+        "coordsApprox": false,
+        "summary": "The Mahabaleshwar Temple, Gokarna is a 4th-century-CE Hindu temple in Gokarna, Uttara Kannada district, Karnataka state, India, built in the classical Dravidian architectural style.",
+        "source": "https://en.wikipedia.org/wiki/Mahabaleshwar_Temple%2C_Gokarna"
+      },
+      {
+        "slug": "kudle-beach",
+        "name": "Kudle Beach",
+        "minutes": 120,
+        "best": "sunset",
+        "hours": null,
+        "coords": {
+          "lat": 14.55,
+          "lng": 74.31667
+        },
+        "coordsApprox": true,
+        "summary": "",
+        "source": "https://en.wikipedia.org/wiki/Gokarna%2C_Karnataka"
+      },
+      {
+        "slug": "beach-trek-kudle-to-paradise",
+        "name": "Beach trek: Kudle to Paradise",
+        "minutes": 240,
+        "best": "morning",
+        "hours": null,
+        "coords": {
+          "lat": 14.55,
+          "lng": 74.31667
+        },
+        "coordsApprox": true,
+        "summary": "",
+        "source": "https://en.wikipedia.org/wiki/Gokarna%2C_Karnataka"
+      },
+      {
+        "slug": "mirjan-fort",
+        "name": "Mirjan Fort",
+        "minutes": 60,
+        "best": "any",
+        "hours": null,
+        "coords": {
+          "lat": 14.55,
+          "lng": 74.31667
+        },
+        "coordsApprox": true,
+        "summary": "The Mirjan Fort is located on the west coast of the Uttara Kannada district in the southern Indian state of Karnataka.",
+        "source": "https://en.wikipedia.org/wiki/Mirjan_Fort"
+      }
+    ]
+  }
+]
