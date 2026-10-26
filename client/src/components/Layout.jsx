@@ -3,6 +3,7 @@ import { Link, NavLink, Outlet, useLocation, useNavigate } from 'react-router-do
 import { Menu, X } from 'lucide-react'
 import { useLogout, useMe } from '../features/auth/useAuth.js'
 import ErrorBoundary from './ErrorBoundary.jsx'
+import { useAlerts } from '../features/trips/useTrips.js'
 
 const NAV = [
   { to: '/discover', label: 'Find a trip' },
@@ -35,6 +36,20 @@ export default function Layout() {
   const navigate = useNavigate()
   const location = useLocation()
   const [open, setOpen] = useState(false)
+  const { data: alerts } = useAlerts(Boolean(user))
+  const alertCount = alerts ? alerts.toReview + alerts.decisions.length : 0
+
+  const navItem = (n) => (
+    <NavLink key={n.to} to={n.to} className={navClass}>
+      {n.label}
+      {n.to === '/me/trips' && alertCount > 0 && (
+        <span className="num ml-1.5 inline-flex min-w-5 items-center justify-center rounded-full bg-milestone px-1.5 text-xs font-bold text-asphalt">
+          {alertCount}
+          <span className="sr-only"> {alertCount === 1 ? 'update' : 'updates'}</span>
+        </span>
+      )}
+    </NavLink>
+  )
 
   // Close the mobile menu after navigating, and start each page at the top.
   useEffect(() => {
@@ -58,9 +73,7 @@ export default function Layout() {
         <div className="mx-auto flex h-16 max-w-[1200px] items-center justify-between gap-4 px-4">
           <Logo />
           <nav className="hidden items-center gap-1 md:flex" aria-label="Main">
-            {items.map((n) => (
-              <NavLink key={n.to} to={n.to} className={navClass}>{n.label}</NavLink>
-            ))}
+            {items.map(navItem)}
           </nav>
           <div className="hidden items-center gap-2 md:flex">
             {user ? (
@@ -79,21 +92,20 @@ export default function Layout() {
           </div>
           <button
             type="button"
-            className="btn -mr-2 px-2 text-white md:hidden"
+            className="btn relative -mr-2 px-2 text-white md:hidden"
             aria-expanded={open}
             aria-controls="mobile-nav"
             onClick={() => setOpen((o) => !o)}
           >
             {open ? <X className="size-6" /> : <Menu className="size-6" />}
-            <span className="sr-only">{open ? 'Close menu' : 'Open menu'}</span>
+            {!open && alertCount > 0 && <span className="absolute right-1 top-2 size-2.5 rounded-full bg-milestone" aria-hidden />}
+            <span className="sr-only">{open ? 'Close menu' : `Open menu${alertCount ? `, ${alertCount} updates` : ''}`}</span>
           </button>
         </div>
         {open && (
           <nav id="mobile-nav" className="border-t border-white/10 px-4 pb-4 pt-2 md:hidden" aria-label="Main">
             <div className="flex flex-col">
-              {items.map((n) => (
-                <NavLink key={n.to} to={n.to} className={navClass}>{n.label}</NavLink>
-              ))}
+              {items.map(navItem)}
             </div>
             <div className="mt-3 flex gap-2 border-t border-white/10 pt-3">
               {user ? (

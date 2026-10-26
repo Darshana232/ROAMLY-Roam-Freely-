@@ -34,6 +34,8 @@ const joinRequestSchema = new mongoose.Schema(
     message: { type: String, trim: true, maxlength: 400, default: '' },
     status: { type: String, enum: ['pending', 'approved', 'rejected', 'withdrawn'], default: 'pending' },
     decidedAt: Date,
+    // False once the host decides, until the requester has seen the outcome.
+    seenByRequester: { type: Boolean, default: true },
   },
   { timestamps: true },
 );

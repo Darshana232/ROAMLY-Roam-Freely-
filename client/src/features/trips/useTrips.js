@@ -34,6 +34,7 @@ export function useTripAction(tripId) {
       qc.invalidateQueries({ queryKey: ['trip', tripId] })
       qc.invalidateQueries({ queryKey: ['trips'] })
       qc.invalidateQueries({ queryKey: ['my-trips'] })
+      qc.invalidateQueries({ queryKey: ['alerts'] })
     },
   })
 }
@@ -46,5 +47,25 @@ export function useCreateTrip() {
       qc.invalidateQueries({ queryKey: ['trips'] })
       qc.invalidateQueries({ queryKey: ['my-trips'] })
     },
+  })
+}
+
+// Polled so a host notices new requests and a traveller notices decisions
+// without reloading. Refetches when the tab regains focus as well.
+export function useAlerts(enabled) {
+  return useQuery({
+    queryKey: ['alerts'],
+    queryFn: async () => (await api.get('/trips/alerts')).data,
+    enabled,
+    refetchInterval: 60_000,
+    refetchOnWindowFocus: true,
+  })
+}
+
+export function useMarkAlertsSeen() {
+  const qc = useQueryClient()
+  return useMutation({
+    mutationFn: () => api.post('/trips/alerts/seen'),
+    onSuccess: () => qc.invalidateQueries({ queryKey: ['alerts'] }),
   })
 }

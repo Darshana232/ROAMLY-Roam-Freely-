@@ -197,7 +197,7 @@ export async function approve(req, res) {
 
   const request = await JoinRequest.findOneAndUpdate(
     { _id: req.params.requestId, trip: seat._id, status: 'pending' },
-    { status: 'approved', decidedAt: new Date() },
+    { status: 'approved', decidedAt: new Date(), seenByRequester: false },
     { returnDocument: 'after' },
   );
   if (!request) {
@@ -213,7 +213,7 @@ export async function reject(req, res) {
   if (!trip) throw new AppError(404, 'Trip not found');
   const request = await JoinRequest.findOneAndUpdate(
     { _id: req.params.requestId, trip: trip._id, status: 'pending' },
-    { status: 'rejected', decidedAt: new Date() },
+    { status: 'rejected', decidedAt: new Date(), seenByRequester: false },
     { returnDocument: 'after' },
   );
   if (!request) throw new AppError(409, 'This request has already been handled');
@@ -259,4 +259,25 @@ export async function mine(req, res) {
     hosting: hosting.map((t) => ({ ...present(t, req.user), pendingRequests: pendingByTrip.get(t._id.toString()) ?? 0 })),
     joining: joined.map((t) => ({ ...present(t, req.user), myStatus: statusByTrip.get(t._id.toString()) })),
   });
+}
+
+// What needs this person's attention: requests waiting on trips they host,
+// and decisions on their own requests they haven't seen yet.
+export async function alerts(req, res) {
+  const hosted = await Trip.find({ host: req.user._id, status: 'open', startDate: { $gt: today() } }).select('_id').lean();
+  const [toReview, decisions] = await Promise.all([
+    JoinRequest.countDocuments({ trip: { $in: hosted.map((t) => t._id) }, status: 'pending' }),
+    JoinRequest.find({ user: req.user._id, seenByRequester: false, status: { $in: ['approved', 'rejected'] } })
+      .populate({ path: 'trip', select: 'title' })
+      .lean(),
+  ]);
+  res.json({
+    toReview,
+    decisions: decisions.map((d) => ({ tripId: d.trip._id, title: d.trip.title, status: d.status })),
+  });
+}
+
+export async function markAlertsSeen(req, res) {
+  await JoinRequest.updateMany({ user: req.user._id, seenByRequester: false }, { seenByRequester: true });
+  res.status(204).end();
 }

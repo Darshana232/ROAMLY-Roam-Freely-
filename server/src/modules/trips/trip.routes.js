@@ -7,6 +7,8 @@ const router = Router();
 
 router.get('/', optionalAuth, validate({ query: c.listQuery }), c.list);
 router.get('/mine', requireAuth, c.mine);
+router.get('/alerts', requireAuth, c.alerts);
+router.post('/alerts/seen', requireAuth, c.markAlertsSeen);
 router.get('/:id', optionalAuth, validate({ params: c.idParams }), c.getOne);
 
 router.post('/', requireAuth, validate({ body: c.createBody }), c.create);

@@ -155,6 +155,24 @@ describe('group trips', () => {
     assert.equal((await Trip.findById(trip.id).lean()).seatsTaken, 0);
   });
 
+  test('alerts count requests to review and unseen decisions', async () => {
+    const host = await newUser();
+    const trip = (await host.agent.post('/api/trips').send(tripBody({ startDate: isoDay(80), endDate: isoDay(81) }))).body.trip;
+    const guest = await newUser();
+    const req = (await guest.agent.post(`/api/trips/${trip.id}/requests`).send({})).body.request;
+
+    assert.equal((await host.agent.get('/api/trips/alerts')).body.toReview, 1);
+    assert.equal((await guest.agent.get('/api/trips/alerts')).body.decisions.length, 0);
+
+    await host.agent.post(`/api/trips/${trip.id}/requests/${req.id}/approve`);
+    assert.equal((await host.agent.get('/api/trips/alerts')).body.toReview, 0);
+    const { decisions } = (await guest.agent.get('/api/trips/alerts')).body;
+    assert.deepEqual(decisions.map((d) => d.status), ['approved']);
+
+    assert.equal((await guest.agent.post('/api/trips/alerts/seen')).status, 204);
+    assert.equal((await guest.agent.get('/api/trips/alerts')).body.decisions.length, 0);
+  });
+
   test('women-only trips refuse requests from anyone not registered as a woman', async () => {
     const host = await newUser({ gender: 'woman' });
     const trip = (await host.agent.post('/api/trips').send(tripBody({ womenOnly: true, startDate: isoDay(60), endDate: isoDay(61) }))).body.trip;
