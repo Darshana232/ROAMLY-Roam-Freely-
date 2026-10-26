@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react'
+import { Suspense, lazy, useEffect, useMemo, useState } from 'react'
 import { Link, useLocation, useNavigate } from 'react-router-dom'
 import { AnimatePresence, Reorder, motion, useDragControls, useReducedMotion } from 'motion/react'
 import { AlertCircle, ArrowDown, ArrowUp, GripVertical, Plus, Sunrise, Sunset, X } from 'lucide-react'
@@ -7,6 +7,9 @@ import { useMe } from '../auth/useAuth.js'
 import { useToast } from '../../components/Toast.jsx'
 import { ErrorState, InlineError, Spinner } from '../../components/States.jsx'
 import { duration, minutes } from '../../lib/format.js'
+
+// Leaflet is heavy; load it only when an itinerary is on screen.
+const DayMap = lazy(() => import('./DayMap.jsx'))
 
 const BEST = {
   sunrise: { icon: Sunrise, label: 'Best at sunrise' },
@@ -274,6 +277,9 @@ export default function ItineraryEditor({ destination, initialDays = 2, initialM
       </div>
 
       <aside className="space-y-5 lg:sticky lg:top-24 lg:self-start">
+        <Suspense fallback={<div className="skeleton h-64 lg:h-72" />}>
+          <DayMap destination={destination} plan={plan} active={active} />
+        </Suspense>
         <div className="surface p-4">
           <label htmlFor="plan-title" className="field-label">Plan name</label>
           <input
