@@ -4,7 +4,7 @@
 
 **Live app:** https://roamly-roam-freely.vercel.app
 **API:** https://roamly-api-3wvo.onrender.com/api/health (free tier, so the first request after a quiet spell can take up to a minute)
-**Demo video:** `REPLACE-WITH-VIDEO-LINK`
+**Demo video:** (https://drive.google.com/file/d/1EVPPg2vPwgPvvCOn5Hf4c2d9f6E7Pkm0/view?usp=sharing)
 Demo login: use **"Use the demo account"** on the login page (`demo@roamly.app` / `roamly-demo-2026`).
 
 ---
