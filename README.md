@@ -2,7 +2,9 @@
 
 **Two days, a budget, starting in Bengaluru. Roamly ranks places that actually fit, drafts the days, and finds people to go with.**
 
-Live app: `https://REPLACE-WITH-VERCEL-URL` · Demo video: `REPLACE-WITH-VIDEO-LINK`
+**Live app:** https://roamly-roam-freely.vercel.app
+**API:** https://roamly-api-3wvo.onrender.com/api/health (free tier, so the first request after a quiet spell can take up to a minute)
+**Demo video:** `REPLACE-WITH-VIDEO-LINK`
 Demo login: use **"Use the demo account"** on the login page (`demo@roamly.app` / `roamly-demo-2026`).
 
 ---
@@ -147,7 +149,7 @@ The client needs no environment variables: it calls `/api` on its own origin.
 1. **MongoDB Atlas:** create a free cluster and a database user, allow access from anywhere (`0.0.0.0/0`, since Render's IPs vary), and copy the connection string.
 2. **Seed it once** from your machine: put `MONGO_URI=<atlas uri>` in `server/.env`, then run `cd server && npm run seed`.
 3. **Render:** create a Blueprint from this repo (`render.yaml`). Set `MONGO_URI` and `CLIENT_ORIGIN` (your Vercel URL); `JWT_SECRET` is generated. Check `https://<service>.onrender.com/api/health`.
-4. **Vercel:** import the repo with root directory `client` (framework Vite). Put your Render URL in `client/vercel.json` in place of `REPLACE-WITH-RENDER-SERVICE`, then deploy.
+4. **Vercel:** import the repo with root directory `client` (framework Vite). `client/vercel.json` forwards `/api/*` to the Render service; change that URL if your Render service has a different name.
 
 Render's free tier sleeps when idle; the first request after a while can take up to a minute.
 
